@@ -476,6 +476,11 @@ button {
 }
 
 .content.on {
+    /*background:*/
+    /*        linear-gradient(to right, #ccc, transparent 1px),*/
+    /*        linear-gradient(to bottom, #ccc , transparent 1px);*/
+    /*background-repeat: repeat; !* 默认为 repeat *!*/
+    /*background-size: 10px 10px;*/
     margin-left: 0 !important
 }
 
@@ -538,12 +543,12 @@ button {
 
 #main {
     position: relative;
-    /*实现网格效果*/
-    background:
-        linear-gradient(to right, #ccc, transparent 1px),
-        linear-gradient(to bottom, #ccc , transparent 1px);
-    background-repeat: repeat; /* 默认为 repeat */
-    background-size: 10px 10px
+    /*!*实现网格效果*!*/
+    /*background:*/
+    /*    linear-gradient(to right, #ccc, transparent 1px),*/
+    /*    linear-gradient(to bottom, #ccc , transparent 1px);*/
+    /*background-repeat: repeat; !* 默认为 repeat *!*/
+    /*background-size: 10px 10px*/
 }
 
 @media (min-width: 768px) {
@@ -807,9 +812,10 @@ button {
 
 .word_count {
     margin-top: 5px;
-    color: #717f8c;
+    color: #000000;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #efefef
+    border-bottom: 1px solid #efefef;
+    background-color: rgba(211,211,211,0.6);
 }
 
 @media (max-width: 768px) {
@@ -1000,7 +1006,11 @@ button {
     content: "\eaf2";
     margin-right: .15rem;
     font-family: remixicon;
-    opacity: .5
+    /*opacity: .5*/
+    /*article-date*/
+}
+.article-date{
+    background-color: rgba(211,211,211,0.6);
 }
 
 .article-category {
@@ -1025,7 +1035,7 @@ button {
     line-height: 1.6;
     color: #403e3e;
 
-    background-color: rgba(211,211,211,0.7);
+    /*background-color: rgba(211,211,211,0.7);*/
     /*下面会让整体透明 但是rga不会*/
     /*opacity: 0.6;*/
 }
@@ -1088,7 +1098,8 @@ button {
 .article-header .article-title {
     font-size: 34px;
     font-weight: 700;
-    border-left: 4px solid #403e3e
+    border-left: 4px solid #403e3e;
+    /*background-color: rgba(211,211,211,0.7)*/
 }
 
 .article-header .article-author, .article-header .article-title {
@@ -1312,7 +1323,8 @@ button {
 
 .tocbot > .toc-list {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    background-color: rgba(211,211,211,1);
 }
 
 .toc-list {
